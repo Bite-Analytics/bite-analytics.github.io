@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Manpreet Ragi"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Avatar.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
