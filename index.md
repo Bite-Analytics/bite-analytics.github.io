@@ -12,7 +12,7 @@ header:
 
 🚀 **Bite Analytics** helps you explore how **Business Intelligence** and **Artificial Intelligence** power modern decision-making.
 
-🎥 Subscribe to our [YouTube channel]((https://www.youtube.com/@Bite-Analytics))  
+🎥 Subscribe to our [YouTube channel](https://www.youtube.com/@Bite-Analytics)
 📝 Read our latest [blog posts](./)
 
 Stay curious. Stay data-driven.
