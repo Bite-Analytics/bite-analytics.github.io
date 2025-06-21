@@ -1,18 +1,14 @@
 ---
-layout: home
-author_profile: true
+layout: splash
 title: "Welcome to Bite Analytics"
-excerpt: "BI + AI for Real-World Insights"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.4"
-  overlay_image: /assets/images/avatar.png
-  caption: "Your analytics journey starts here."
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/header-bg.jpg
+  actions:
+    - label: "📺 Watch Our First Video"
+      url: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+excerpt: "Bite-sized insights into Business Intelligence and Artificial Intelligence"
 ---
 
-🚀 **Bite Analytics** helps you explore how **Business Intelligence** and **Artificial Intelligence** power modern decision-making.
-
-🎥 Subscribe to our [YouTube channel](https://www.youtube.com/@Bite-Analytics)
-📝 Read our latest [blog posts](./)
-
-Stay curious. Stay data-driven.
+{% include feature_row id="intro" %}
