@@ -5,7 +5,7 @@ baseurl: "" # leave blank for root
 
 logo: "/assets/images/avatar.png"
 favicon: "/assets/images/favicon.ico"
-
+ 
 author:
   name: "Bite-Analytics"
   avatar: "/assets/images/avatar.png"
