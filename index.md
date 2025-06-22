@@ -4,7 +4,7 @@ title: Bite-Analytics
 subtitle: Simplifying Business Intelligence and AI
 ---
 
-<img src="/assets/images/avatar.png" alt="Bite Analytics Avatar" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
+<img src="/assets/images/avatar.png" alt="Bite-Analytics Avatar" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
 
 Welcome to **Bite-Analytics** – where data meets clarity!
 
@@ -21,6 +21,6 @@ Whether you're new to Business Intelligence or exploring the power of AI, this i
 ---
 
 ## 🔗 Stay Connected
-- 📺 [Subscribe on YouTube](https://youtube.com/@yourchannel)
+- 📺 [Subscribe on YouTube](https://www.youtube.com/@gigabite-101)
 - 🐦 Twitter: [@YourHandle](#)
 - 📬 Contact: info@bite-analytics.com
