@@ -21,6 +21,6 @@ Whether you're new to Business Intelligence or exploring the power of AI, this i
 ---
 
 ## 🔗 Stay Connected
-- 📺 [Subscribe on YouTube](https://www.youtube.com/@gigabite-101)
+- 📺 [Subscribe on YouTube](https://www.youtube.com/@bite-analytics)
 - 🐦 Twitter: [@YourHandle](#)
 - 📬 Contact: info@bite-analytics.com
