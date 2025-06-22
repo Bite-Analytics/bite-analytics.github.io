@@ -1,14 +1,26 @@
 ---
-layout: splash
-title: "Welcome to Bite Analytics"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-  # overlay_image: /assets/images/header-bg.jpg
-  actions:
-    - label: "📺 Watch Our First Video"
-      url: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
-excerpt: "Bite-sized insights into Business Intelligence and Artificial Intelligence"
+layout: home
+title: Bite Analytics
+subtitle: Simplifying Business Intelligence and AI
 ---
 
-{% include feature_row id="intro" %}
+<img src="/assets/images/avatar.png" alt="Bite Analytics Avatar" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
+
+Welcome to **Bite Analytics** – where data meets clarity!
+
+Whether you're new to Business Intelligence or exploring the power of AI, this is your space for quick, easy-to-digest insights.
+
+---
+
+## 📺 Latest Video
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
+
+---
+
+## 🔗 Stay Connected
+- 📺 [Subscribe on YouTube](https://youtube.com/@yourchannel)
+- 🐦 Twitter: [@YourHandle](#)
+- 📬 Contact: info@bite-analytics.com
