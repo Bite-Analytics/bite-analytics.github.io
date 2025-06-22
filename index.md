@@ -4,7 +4,7 @@ title: Bite-Analytics
 subtitle: Simplifying Business Intelligence and AI
 ---
 
-<img src="/assets/images/avatar.png" alt="Bite-Analytics Avatar" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
+<img src="/assets/images/Avatar.png" alt="Bite-Analytics Avatar" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
 
 Welcome to **Bite-Analytics** – where data meets clarity!
 
