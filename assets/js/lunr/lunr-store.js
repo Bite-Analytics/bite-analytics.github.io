@@ -40,4 +40,10 @@ var store = [{
         "tags": ["Jekyll","update"],
         "url": "/blog/welcome-to-jekyll/",
         "teaser": null
+      },{
+        "title": "Welcome to Bite Analytics!",
+        "excerpt":"🚀 Welcome to the Bite Analytics blog! This blog is all about breaking down complex topics in Business Intelligence and Artificial Intelligence — making them simple, bite-sized, and practical. What can you expect? 🔍 Clear guides on BI tools and dashboards 🤖 Hands-on tips using AI in analytics 📊 Real-world...","categories": [],
+        "tags": ["introduction","BI","AI"],
+        "url": "/welcome-to-bite-analytics/",
+        "teaser": null
       }]
