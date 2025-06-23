@@ -1,23 +1,46 @@
 ---
 title: "Welcome to Bite Analytics!"
-date: 2025-06-21
+date: 2025-06-22
 layout: post
-author: Your Name
-tags: [introduction, BI, AI]
+author: Bite Analytics
+tags: [intro, youtube, BI, AI]
 categories: [BI, AI]
 ---
 
-🚀 **Welcome to the Bite Analytics blog!**
+👋 **Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence.**
 
-This blog is all about breaking down complex topics in **Business Intelligence** and **Artificial Intelligence** — making them simple, bite-sized, and practical.
-
-What can you expect?
-- 🔍 Clear guides on BI tools and dashboards
-- 🤖 Hands-on tips using AI in analytics
-- 📊 Real-world examples and use cases
-
-Whether you're new to the world of data or leveling up your skills, Bite Analytics is here to help you make sense of it all — one byte at a time.
-
-Stay tuned and subscribe to the [YouTube channel](https://youtube.com/@YourChannelHere) for new videos every week!
+This is our very first blog post, and it's all about what you can expect from the Bite Analytics journey.
 
 ---
+
+## 🚀 Why Bite Analytics?
+
+We believe data shouldn't be scary. Whether you're just getting started or deep into analytics, this channel and blog aim to:
+- Simplify **BI tools** like Power BI, Tableau, and Excel
+- Break down **AI trends** like ChatGPT, automation, and machine learning
+- Show you how to combine both to make better, faster decisions
+
+---
+
+## 📺 Our First YouTube Video
+
+Check out our intro video where we explain:
+- What **BI** and **AI** really mean
+- Why they matter in today’s world
+- How you can start learning right now — without feeling overwhelmed
+
+[Watch here ➤](https://www.youtube.com/watch?v=c00wRLWqMD0&t)
+
+---
+
+## 📌 What’s Next?
+
+Each week, we’ll be sharing:
+- 🛠️ Tutorials & walkthroughs
+- 🎥 Video breakdowns
+- 💡 Real-world examples
+- 🧠 Tips to level up your data skills
+
+Make sure to **subscribe** on [YouTube](https://www.youtube.com/@biteanalytics) and follow the blog so you never miss a post.
+
+Thanks for joining us — let’s make data delicious! 🍽️📊
