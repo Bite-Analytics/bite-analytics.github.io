@@ -37,6 +37,7 @@ defaults:
       comments: false
       share: true
       related: true
+      css: "/assets/css/custom.css"
 
 # Social media links (update as you grow)
 social:
