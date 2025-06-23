@@ -2,6 +2,7 @@
 title: "Welcome to Bite Analytics!"
 date: 2025-06-22
 layout: post
+classes: dark
 author: Bite Analytics
 tags: [intro, youtube, BI, AI]
 categories: [BI, AI]
