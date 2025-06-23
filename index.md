@@ -15,9 +15,9 @@ Whether you're new to Business Intelligence or exploring the power of AI, this i
 ## 📺 Latest Video
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-   <iframe src="https://www.youtube.com/embed/c00wRLWqMD0&t=397s" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;">
-  </iframe>
+  <iframe src="https://www.youtube.com/embed/c00wRLWqMD0" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
+
 
 ---
 
