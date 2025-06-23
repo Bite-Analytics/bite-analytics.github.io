@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
   - title: "Tags"
     url: /tags/
   - title: "About"
