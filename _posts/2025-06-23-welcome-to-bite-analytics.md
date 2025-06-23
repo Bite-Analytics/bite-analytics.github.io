@@ -4,6 +4,7 @@ date: 2025-06-21
 layout: post
 author: Your Name
 tags: [introduction, BI, AI]
+categories: [BI, AI]
 ---
 
 🚀 **Welcome to the Bite Analytics blog!**
