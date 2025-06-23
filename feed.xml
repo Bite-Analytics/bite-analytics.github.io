@@ -1,19 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://bite-analytics.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bite-analytics.com/" rel="alternate" type="text/html" /><updated>2025-06-23T15:34:00+00:00</updated><id>https://bite-analytics.com/feed.xml</id><title type="html">Bite Analytics</title><subtitle>Bite-sized insights on Business Intelligence and Artificial Intelligence</subtitle><author><name>Bite-Analytics</name></author><entry><title type="html">Welcome to Bite Analytics!</title><link href="https://bite-analytics.com/bi/ai/welcome-to-bite-analytics/" rel="alternate" type="text/html" title="Welcome to Bite Analytics!" /><published>2025-06-21T00:00:00+00:00</published><updated>2025-06-21T00:00:00+00:00</updated><id>https://bite-analytics.com/bi/ai/welcome-to-bite-analytics</id><content type="html" xml:base="https://bite-analytics.com/bi/ai/welcome-to-bite-analytics/"><![CDATA[<p>🚀 <strong>Welcome to the Bite Analytics blog!</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://bite-analytics.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bite-analytics.com/" rel="alternate" type="text/html" /><updated>2025-06-23T19:00:02+00:00</updated><id>https://bite-analytics.com/feed.xml</id><title type="html">Bite Analytics</title><subtitle>Bite-sized insights on Business Intelligence and Artificial Intelligence</subtitle><author><name>Bite-Analytics</name></author><entry><title type="html">Welcome to Bite Analytics!</title><link href="https://bite-analytics.com/bi/ai/welcome-to-bite-analytics/" rel="alternate" type="text/html" title="Welcome to Bite Analytics!" /><published>2025-06-22T00:00:00+00:00</published><updated>2025-06-22T00:00:00+00:00</updated><id>https://bite-analytics.com/bi/ai/welcome-to-bite-analytics</id><content type="html" xml:base="https://bite-analytics.com/bi/ai/welcome-to-bite-analytics/"><![CDATA[<p>👋 <strong>Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence.</strong></p>
 
-<p>This blog is all about breaking down complex topics in <strong>Business Intelligence</strong> and <strong>Artificial Intelligence</strong> — making them simple, bite-sized, and practical.</p>
+<p>This is our very first blog post, and it’s all about what you can expect from the Bite Analytics journey.</p>
 
-<p>What can you expect?</p>
+<hr />
+
+<h2 id="-why-bite-analytics">🚀 Why Bite Analytics?</h2>
+
+<p>We believe data shouldn’t be scary. Whether you’re just getting started or deep into analytics, this channel and blog aim to:</p>
 <ul>
-  <li>🔍 Clear guides on BI tools and dashboards</li>
-  <li>🤖 Hands-on tips using AI in analytics</li>
-  <li>📊 Real-world examples and use cases</li>
+  <li>Simplify <strong>BI tools</strong> like Power BI, Tableau, and Excel</li>
+  <li>Break down <strong>AI trends</strong> like ChatGPT, automation, and machine learning</li>
+  <li>Show you how to combine both to make better, faster decisions</li>
 </ul>
 
-<p>Whether you’re new to the world of data or leveling up your skills, Bite Analytics is here to help you make sense of it all — one byte at a time.</p>
+<hr />
 
-<p>Stay tuned and subscribe to the <a href="https://youtube.com/@YourChannelHere">YouTube channel</a> for new videos every week!</p>
+<h2 id="-our-first-youtube-video">📺 Our First YouTube Video</h2>
 
-<hr />]]></content><author><name>Your Name</name></author><category term="BI" /><category term="AI" /><category term="introduction" /><category term="BI" /><category term="AI" /><summary type="html"><![CDATA[🚀 Welcome to the Bite Analytics blog!]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://bite-analytics.com/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T19:34:30+00:00</published><updated>2019-04-18T19:34:30+00:00</updated><id>https://bite-analytics.com/blog/welcome-to-jekyll</id><content type="html" xml:base="https://bite-analytics.com/blog/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>Check out our intro video where we explain:</p>
+<ul>
+  <li>What <strong>BI</strong> and <strong>AI</strong> really mean</li>
+  <li>Why they matter in today’s world</li>
+  <li>How you can start learning right now — without feeling overwhelmed</li>
+</ul>
+
+<p><a href="https://www.youtube.com/watch?v=c00wRLWqMD0&amp;t">Watch here ➤</a></p>
+
+<hr />
+
+<h2 id="-whats-next">📌 What’s Next?</h2>
+
+<p>Each week, we’ll be sharing:</p>
+<ul>
+  <li>🛠️ Tutorials &amp; walkthroughs</li>
+  <li>🎥 Video breakdowns</li>
+  <li>💡 Real-world examples</li>
+  <li>🧠 Tips to level up your data skills</li>
+</ul>
+
+<p>Make sure to <strong>subscribe</strong> on <a href="https://www.youtube.com/@biteanalytics">YouTube</a> and follow the blog so you never miss a post.</p>
+
+<p>Thanks for joining us — let’s make data delicious! 🍽️📊</p>]]></content><author><name>Bite Analytics</name></author><category term="BI" /><category term="AI" /><category term="intro" /><category term="youtube" /><category term="BI" /><category term="AI" /><summary type="html"><![CDATA[👋 Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://bite-analytics.com/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T19:34:30+00:00</published><updated>2019-04-18T19:34:30+00:00</updated><id>https://bite-analytics.com/blog/welcome-to-jekyll</id><content type="html" xml:base="https://bite-analytics.com/blog/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 

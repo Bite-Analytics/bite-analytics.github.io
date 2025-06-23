@@ -42,8 +42,8 @@ var store = [{
         "teaser": null
       },{
         "title": "Welcome to Bite Analytics!",
-        "excerpt":"🚀 Welcome to the Bite Analytics blog! This blog is all about breaking down complex topics in Business Intelligence and Artificial Intelligence — making them simple, bite-sized, and practical. What can you expect? 🔍 Clear guides on BI tools and dashboards 🤖 Hands-on tips using AI in analytics 📊 Real-world...","categories": ["BI","AI"],
-        "tags": ["introduction","BI","AI"],
+        "excerpt":"👋 Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence. This is our very first blog post, and it’s all about what you can expect from the Bite Analytics journey. 🚀 Why Bite Analytics? We believe data shouldn’t be...","categories": ["BI","AI"],
+        "tags": ["intro","youtube","BI","AI"],
         "url": "/bi/ai/welcome-to-bite-analytics/",
         "teaser": null
       }]
