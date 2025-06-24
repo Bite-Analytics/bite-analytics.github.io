@@ -47,5 +47,8 @@ social:
     - "https://www.youtube.com/@biteanalytics"
     - "https://github.com/bite-analytics"
 
+ include:
+  - _includes/head.html
+
 # Build settings
 exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor"]
