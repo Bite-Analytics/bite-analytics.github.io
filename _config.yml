@@ -36,12 +36,12 @@ defaults:
       path: ""
       type: "pages"
     values:
-      custom_css: _assets/css/custom.css
+  #    custom_css: _assets/css/custom.css
   - scope:
       path: ""
       type: "posts"
     values:
-      custom_css: _assets/css/custom.css
+   #   custom_css: _assets/css/custom.css
 
 
 
