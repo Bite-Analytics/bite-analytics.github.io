@@ -1,14 +1,5 @@
-/* Force dark background for blog pages */
-body.page,
-body.single,
-body.layout--post {
-  background-color: #0d0d0d !important;
-  color: #f0f0f0 !important;
-}
 
-.page__content,
-.page__meta,
-.entry__meta {
-  background-color: #0d0d0d !important;
-  color: #f0f0f0 !important;
-}
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";/* Force dark background for blog pages */
+
+
