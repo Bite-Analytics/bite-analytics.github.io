@@ -1,9 +1,9 @@
 ---
 ---
 
-@import "minimal-mistakes"; // keep this
+@import "minimal-mistakes";
 
-// Target only blog posts
+// Dark style for blog posts only
 body.layout--post {
   background-color: #0d0d0d;
   color: #f0f0f0;
