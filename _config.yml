@@ -12,10 +12,13 @@ author:
   bio: "Bite-sized insights into BI & AI"
   location: "UK"
 
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"  # or "air", "contrast", "default"
 sass:
   style: compressed
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"  # or "air", "contrast", "default"
+
+color_scheme_toggle: true
 
 markdown: kramdown
 highlighter: rouge
@@ -30,7 +33,7 @@ plugins:
 
 defaults:
   - scope:
-      path: ""
+      path: "assets/css"
       type: "posts"
     values:
       layout: single
