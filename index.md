@@ -1,6 +1,6 @@
 ---
 ---
-layout: home
+layout: default
 author_profile: true
 title: "Welcome to Bite Analytics"
 excerpt: "Bringing BI + AI together for insight."
