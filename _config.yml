@@ -34,14 +34,20 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "pages"
-    values:
-  #    custom_css: _assets/css/custom.css
-  - scope:
-      path: ""
       type: "posts"
     values:
-   #   custom_css: _assets/css/custom.css
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      custom_css: assets/css/custom.css
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      custom_css: assets/css/custom.css
 
 
 
