@@ -33,7 +33,7 @@ plugins:
 
 defaults:
   - scope:
-      path: "assets/css"
+      path: "_assets/css"
       type: "posts"
     values:
       layout: single
