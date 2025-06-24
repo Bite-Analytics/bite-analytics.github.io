@@ -5,7 +5,7 @@ baseurl: "" # leave blank for root
 
 logo: "/assets/images/avatar.png"
 favicon: "/assets/images/favicon.ico"
- 
+
 author:
   name: "Bite-Analytics"
   avatar: "/assets/images/avatar.png"
@@ -17,7 +17,6 @@ sass:
 
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"  # or "air", "contrast", "default"
-
 color_scheme_toggle: true
 
 markdown: kramdown
@@ -49,8 +48,6 @@ defaults:
     values:
       custom_css: assets/css/custom.css
 
-
-
 # Social media links (update as you grow)
 social:
   type: "Person"
@@ -58,8 +55,6 @@ social:
   links:
     - "https://www.youtube.com/@biteanalytics"
     - "https://github.com/bite-analytics"
-  include:
-    - _includes/head.html
 
 # Build settings
 exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor"]
