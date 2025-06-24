@@ -1,0 +1,16 @@
+title: Bite Analytics
+email: your-email@example.com
+description: >-
+  A simple site exploring BI and AI in today's world.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # change this to your GitHub Pages URL
+twitter_username: biteanalytics
+github_username:  yourusername
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
