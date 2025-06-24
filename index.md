@@ -1,9 +1,12 @@
 ---
+---
 layout: home
-author_profile: true
 title: "Welcome to Bite Analytics"
 excerpt: "Bringing BI + AI together for insight."
+author_profile: true
+classes: dark
 ---
+
 
 🎉 Welcome to **Bite Analytics** — where we break down complex Business Intelligence and Artificial Intelligence topics into bite-sized insights.
 
