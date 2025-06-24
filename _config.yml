@@ -15,7 +15,7 @@ author:
 sass:
   style: compressed
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"  # or "air", "contrast", "default"
 color_scheme_toggle: true
 
