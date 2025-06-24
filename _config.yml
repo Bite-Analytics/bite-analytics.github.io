@@ -12,11 +12,8 @@ author:
   bio: "Bite-sized insights into BI & AI"
   location: "UK"
 
-sass:
-  style: compressed
-
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"  # or "air", "contrast", "default"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
 color_scheme_toggle: true
 
 markdown: kramdown
