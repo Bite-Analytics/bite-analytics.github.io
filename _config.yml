@@ -1,16 +1,33 @@
+title: Bite-Analytics
+name: Bite Analytics
+description: "Bringing BI and AI together for smarter insights"
+baseurl: ""
+url: "https://bite-analytics.com"
+
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dark
 
-title: Bite Analytics
-email: your-email@example.com
-description: >-
-  A simple site exploring BI and AI in today's world.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # change this to your GitHub Pages URL
-twitter_username: biteanalytics
-github_username:  yourusername
-
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
