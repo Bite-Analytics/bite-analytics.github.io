@@ -1,3 +1,6 @@
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
+
 title: Bite Analytics
 email: your-email@example.com
 description: >-
@@ -6,9 +9,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yourusername.github.io" # change this to your GitHub Pages URL
 twitter_username: biteanalytics
 github_username:  yourusername
-
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: dark
 
 plugins:
   - jekyll-feed
