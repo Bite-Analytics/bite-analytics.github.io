@@ -1,0 +1,21 @@
+---
+---
+
+@import "minimal-mistakes"; // keep this
+
+// Target only blog posts
+body.layout--post {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+
+  .page__content,
+  .page__meta,
+  .entry__meta {
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+  }
+
+  a {
+    color: #80b3ff;
+  }
+}
