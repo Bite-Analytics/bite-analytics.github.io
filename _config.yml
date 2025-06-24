@@ -1,4 +1,4 @@
-title: "Bite Analytics"
+title: "Bite-Analytics"
 description: "Bite-sized insights on Business Intelligence and Artificial Intelligence"
 url: "https://bite-analytics.com"
 baseurl: "" # leave blank for root
@@ -42,13 +42,12 @@ defaults:
 # Social media links (update as you grow)
 social:
   type: "Person"
-  name: "Bite Analytics"
+  name: "Bite-Analytics"
   links:
     - "https://www.youtube.com/@biteanalytics"
     - "https://github.com/bite-analytics"
-
- include:
-  - _includes/head.html
+  include:
+    - _includes/head.html
 
 # Build settings
 exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor"]
