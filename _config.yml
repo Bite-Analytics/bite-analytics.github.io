@@ -31,17 +31,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-defaults:
+  defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
+      custom_css: _assets/css/custom.css
+  - scope:
+      path: ""
+      type: "posts"
+    values:
       custom_css: _assets/css/custom.css
 
 
