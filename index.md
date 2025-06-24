@@ -1,10 +1,12 @@
 ---
 ---
 layout: home
+author_profile: true
 title: "Welcome to Bite Analytics"
 excerpt: "Bringing BI + AI together for insight."
 author_profile: true
 classes: dark
+![Avatar Test](/assets/images/Avatar.png)
 ---
 
 
