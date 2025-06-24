@@ -1,4 +1,5 @@
 /* Force dark background for blog pages */
+body { background: red !important; }
 body.page,
 body.single,
 body.layout--post {
