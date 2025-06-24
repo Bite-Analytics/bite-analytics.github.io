@@ -1,9 +1,10 @@
 ---
 ---
 
-@import "minimal-mistakes";
+@import "minimal-mistakes/skins/dark"; // Import the official dark skin first
+@import "minimal-mistakes";            // Then import the main theme
 
-// Dark style for blog posts only
+// (Optional) Your custom tweaks can go here, after the imports
 body.layout--post {
   background-color: #0d0d0d;
   color: #f0f0f0;
