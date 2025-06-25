@@ -35,6 +35,12 @@ var store = [{
         "url": "/blog/post-link/",
         "teaser": null
       },{
+        "title": "Welcome To Jekyll",
+        "excerpt":"title: “Welcome to Jekyll” date: 2025-06-21 layout: single author_profile: true — Power BI + Microsoft Fabric: A Unified Analytics Experience By Manpreet Ragi, Sr Consultant – Analytics Experience Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter...","categories": [],
+        "tags": [],
+        "url": "/welcome-to-jekyll/",
+        "teaser": null
+      },{
         "title": "Welcome to Bite Analytics!",
         "excerpt":"👋 Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence. This is our very first blog post, and it’s all about what you can expect from the Bite Analytics journey. 🚀 Why Bite Analytics? We believe data shouldn’t be...","categories": ["BI","AI"],
         "tags": ["intro","youtube","BI","AI"],
