@@ -1,6 +1,6 @@
 
 ---
-title: "Welcome to Jekyll"
+title: "Power BI + Microsoft Fabric: A Unified Analytics Experience"
 date: 2025-06-21
 layout: single
 author_profile: true
