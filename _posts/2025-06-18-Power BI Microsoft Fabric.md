@@ -7,7 +7,7 @@ author_profile: true
 
 # Power BI + Microsoft Fabric: A Unified Analytics Experience
 
-*By Manpreet Ragi, Sr Consultant – Analytics Experience*
+*By Manpreet Ragi, Analytics Consultant*
 
 ---
 
