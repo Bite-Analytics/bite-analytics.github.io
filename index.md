@@ -1,17 +1,10 @@
 ---
----
-layout: default
-author_profile: true
+layout: home
 title: "Welcome to Bite Analytics"
-excerpt: "Bringing BI + AI together for insight."
 author_profile: true
-classes: dark
-![Avatar Test](/assets/images/Avatar.png)
 ---
 
+Welcome to **Bite Analytics** — where **BI** and **AI** come together to help you make smarter, faster decisions.  
+🎥 Watch our latest video below 👇
 
-🎉 Welcome to **Bite Analytics** — where we break down complex Business Intelligence and Artificial Intelligence topics into bite-sized insights.
-
-📺 Check out our [YouTube channel](https://youtube.com) for more.
-
-👇 Scroll down for our latest blog post.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c00wRLWqMD0" frameborder="0" allowfullscreen></iframe>
