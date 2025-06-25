@@ -30,6 +30,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
 # Custom navigation menu
+show_navigation: true
 nav:
   - title: "Home"
     url: /
