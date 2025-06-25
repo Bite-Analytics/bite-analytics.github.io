@@ -35,10 +35,10 @@ var store = [{
         "url": "/blog/post-link/",
         "teaser": null
       },{
-        "title": "Power bi fabric",
+        "title": "Power bi microsoft fabric",
         "excerpt":"title: “Power BI + Microsoft Fabric: A Unified Analytics Experience” date: 2025-06-21 layout: single author_profile: true — Power BI + Microsoft Fabric: A Unified Analytics Experience By Manpreet Ragi, Sr Consultant – Analytics Experience Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation....","categories": [],
         "tags": [],
-        "url": "/Power-BI-Fabric/",
+        "url": "/Power-BI-Microsoft-Fabric/",
         "teaser": null
       },{
         "title": "Welcome to Bite Analytics!",
