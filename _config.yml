@@ -28,6 +28,23 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
+# Custom navigation menu
+nav:
+  - title: "Home"
+    url: /
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "About"
+    url: /about/
+
+  - title: "YouTube"
+    url: "https://www.youtube.com/@bite-analytics"  # ← Replace with your actual channel link
+
+
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
