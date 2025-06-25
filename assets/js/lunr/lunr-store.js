@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Power BI + Microsoft Fabric: A Unified Analytics Experience",
-        "excerpt":"Power BI + Microsoft Fabric: A Unified Analytics Experience By Manpreet Ragi, Sr Consultant – Analytics Experience Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that...","categories": [],
+        "excerpt":"Power BI + Microsoft Fabric: A Unified Analytics Experience By Manpreet Ragi, Analytics Consultant Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that empowers data professionals...","categories": [],
         "tags": [],
         "url": "/Power-BI-Microsoft-Fabric/",
         "teaser": null
