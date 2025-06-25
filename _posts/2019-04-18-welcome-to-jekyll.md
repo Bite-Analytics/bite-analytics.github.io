@@ -1,12 +1,11 @@
+
 ---
-title: "Power BI + Microsoft Fabric: A Unified Analytics Experience"
-date: 2025-06-25T15:34:30-04:00
-categories:
-  - blog
-tags:
-  - Jekyll
-  - update
+title: "Welcome to Jekyll"
+date: 2025-06-21
+layout: single
+author_profile: true
 ---
+
 
 # Power BI + Microsoft Fabric: A Unified Analytics Experience
 
