@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Welcome To Jekyll",
-        "excerpt":"title: “Welcome to Jekyll” date: 2025-06-21 layout: single author_profile: true — Power BI + Microsoft Fabric: A Unified Analytics Experience By Manpreet Ragi, Sr Consultant – Analytics Experience Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter...","categories": [],
+        "excerpt":"title: “Power BI + Microsoft Fabric: A Unified Analytics Experience” date: 2025-06-21 layout: single author_profile: true — Power BI + Microsoft Fabric: A Unified Analytics Experience By Manpreet Ragi, Sr Consultant – Analytics Experience Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation....","categories": [],
         "tags": [],
         "url": "/welcome-to-jekyll/",
         "teaser": null
