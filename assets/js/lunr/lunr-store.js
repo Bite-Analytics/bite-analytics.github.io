@@ -35,12 +35,6 @@ var store = [{
         "url": "/blog/post-link/",
         "teaser": null
       },{
-        "title": "Welcome to Jekyll!",
-        "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["blog"],
-        "tags": ["Jekyll","update"],
-        "url": "/blog/welcome-to-jekyll/",
-        "teaser": null
-      },{
         "title": "Welcome to Bite Analytics!",
         "excerpt":"👋 Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence. This is our very first blog post, and it’s all about what you can expect from the Bite Analytics journey. 🚀 Why Bite Analytics? We believe data shouldn’t be...","categories": ["BI","AI"],
         "tags": ["intro","youtube","BI","AI"],
