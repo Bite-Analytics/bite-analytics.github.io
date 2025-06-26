@@ -14,7 +14,7 @@ The Microsoft tech stack is constantly evolving to help us overcome the challeng
 
 There is no shortage of talented and inspiring people and each person brings their own unique perspective of how they see things.
 
-This site is a humble attempt to join the millions around the worls already sharing and contributing to the professional community.
+This site is a humble attempt to join the millions around the world already sharing and contributing to the professional community.
 
 Here, you will find tutorials, insights, and updates from the world of data and analytics. Whether you're a data enthusiast or a seasoned pro, you'll find something here to level up your analytics game.
 
