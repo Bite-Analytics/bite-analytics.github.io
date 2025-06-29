@@ -10,4 +10,10 @@ var store = [{
         "tags": ["intro","youtube","BI","AI"],
         "url": "/bi/ai/welcome-to-bite-analytics/",
         "teaser": null
+      },{
+        "title": "Microsoft Fabric Medallion Architectures",
+        "excerpt":"Microsoft Fabric: A Guide to Fabric Medallion Architecture By Manpreet Ragi, Analytics Consultant Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that empowers data professionals and...","categories": ["blog"],
+        "tags": [],
+        "url": "/blog/A-guide-to-Microsoft-Fabric-Architectures/",
+        "teaser": null
       }]
