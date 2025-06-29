@@ -1,10 +1,4 @@
 var store = [{
-        "title": "Post: Standard",
-        "excerpt":"All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she...","categories": ["Blog"],
-        "tags": ["Post Formats","readability","standard"],
-        "url": "/blog/post-standard/",
-        "teaser": null
-      },{
         "title": "Post: Chat",
         "excerpt":"Abbott: Strange as it may seem, they give ball players nowadays very peculiar names. Costello: Funny names? Abbott: Nicknames, nicknames. Now, on the St. Louis team we have Who’s on first, What’s on second, I Don’t Know is on third– Costello: That’s what I want to find out. I want...","categories": ["Blog"],
         "tags": ["chat","Post Formats"],
