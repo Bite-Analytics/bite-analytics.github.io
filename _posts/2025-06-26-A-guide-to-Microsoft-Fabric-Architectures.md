@@ -19,6 +19,8 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 **Structure**: A single Fabric workspace contains one lakehouse, with folders or schemas representing Bronze, Silver, and Gold layers.
 
+![Pattern 1](pattern_1.png)
+
 ### ✅ Pros:
 - **Simplicity**: Easy to manage and deploy, especially for small teams or proof-of-concept projects.
 - **Unified View**: All data is accessible in one place, which simplifies development and debugging.
@@ -35,6 +37,8 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 **Structure**: A single workspace hosts three separate lakehouses—one each for Bronze, Silver, and Gold.
 
+![Pattern 2](pattern_2.png)
+
 ### ✅ Pros:
 - **Layer Isolation**: Clear separation of concerns between ingestion, transformation, and consumption.
 - **Improved Governance**: Easier to apply policies and monitor lineage at the lakehouse level.
@@ -49,6 +53,8 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 ## 🧱 Pattern 3: Separate Workspaces for Each Layer
 
 **Structure**: Each medallion layer resides in its own dedicated workspace, with one lakehouse per workspace.
+
+![Pattern 3](pattern_3.png)
 
 ### ✅ Pros:
 - **Maximum Isolation**: Ideal for large organizations with distinct teams managing each layer.
@@ -72,11 +78,11 @@ This setup strikes a balance between operational simplicity and architectural ri
 
 ---
 
-## 🌍 Real-World Use Cases
+## 🔍 Real-World Use Cases
 
-- **Pattern 1**: A startup building a quick MVP with a small team and limited governance needs.
-- **Pattern 2**: A mid-sized enterprise with a centralized data engineering team and moderate governance requirements.
-- **Pattern 3**: A large enterprise with federated data teams, strict compliance, and need for strong isolation.
+- **Pattern 1**: Small startup building a quick MVP.
+- **Pattern 2**: Mid-sized enterprise with centralized data engineering.
+- **Pattern 3**: Large enterprise with federated data teams and strict compliance needs.
 
 ---
 
@@ -97,40 +103,29 @@ This setup strikes a balance between operational simplicity and architectural ri
 - Use naming conventions like `bronze_`, `silver_`, `gold_` for tables to maintain clarity.
 - Consider using shortcuts or views in Gold to abstract complexity from consumers.
 - Use Fabric pipelines or Dataflows Gen2 to orchestrate transitions between layers.
-- Leverage Fabric’s lineage view to track data flow across lakehouses.
 
 ---
 
-## ⚙️ Performance & Cost Considerations
+## 📈 Performance & Cost Considerations
 
-- **Pattern 1** may lead to performance bottlenecks as all workloads share the same lakehouse.
-- **Pattern 2** allows tuning each lakehouse for its specific workload (e.g., ingestion vs. analytics).
-- **Pattern 3** introduces overhead but enables cost attribution and scaling per layer.
-
----
-
-## 🔗 Integration with Other Fabric Features
-
-- **Power BI**: Gold layer is typically the source for semantic models.
-- **Data Activator**: Can monitor Silver or Gold layers for real-time triggers.
-- **KQL DBs**: Useful for telemetry or log data in the Bronze layer.
-- **Notebooks & Pipelines**: Ideal for orchestrating transformations across layers.
+- **Data refresh latency**: Lower in Pattern 1, more controllable in Patterns 2 and 3.
+- **Compute cost**: Easier to isolate and optimize in Patterns 2 and 3.
+- **Storage optimization**: Better with separate lakehouses or workspaces.
 
 ---
 
-## 📣 Call to Action
+## 🧩 Integration with Other Fabric Features
 
-Have you implemented a medallion architecture in Fabric? Share your experience by opening a pull request or starting a discussion!
-
-Want to contribute diagrams or templates? Fork this repo and help the community grow!
-
----
-
-*Let’s build better data products—one layer at a time.*
-
-
-And remember: the best architecture is the one that aligns with your business goals while enabling agility and trust in your data.
+- **Power BI**: Semantic models can be layered on Gold lakehouse.
+- **Data Activator**: Can trigger alerts from Silver or Gold layers.
+- **Real-time analytics**: KQL DBs can be integrated at the Bronze or Silver stage.
 
 ---
+
+## 🗣️ Call to Action
+
+Want to contribute or share your experience with Fabric medallion patterns?  
+Open a pull request or start a discussion in the Issues tab!
+
 
 
