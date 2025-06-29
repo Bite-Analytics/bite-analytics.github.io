@@ -10,15 +10,11 @@ author_profile: true
 
 *By Manpreet Ragi, Analytics Consultant*
 
----
-
 Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that empowers data professionals and business users alike.
 
 ## 🚀 What Is Microsoft Fabric?
 
 Microsoft Fabric is a Software-as-a-Service (SaaS) data platform that unifies data engineering, data science, real-time analytics, and business intelligence. Power BI is now deeply integrated into this ecosystem, enabling end-to-end workflows from raw data to decision-making—all in one place.
-
----
 
 ## 🔍 Key Capabilities Power BI Gains with Fabric
 
