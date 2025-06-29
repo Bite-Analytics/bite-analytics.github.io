@@ -17,8 +17,6 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 ## 🧱 Pattern 1: One Workspace, One Lakehouse (All Layers Together)
 
-![Pattern 1](pattern_1.png)
-
 **Structure**: A single Fabric workspace contains one lakehouse, with folders or schemas representing Bronze, Silver, and Gold layers.
 
 ### ✅ Pros:
@@ -35,8 +33,6 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 ## 🧱 Pattern 2: One Workspace, Three Lakehouses (One per Layer)
 
-![Pattern 2](pattern_2.png)
-
 **Structure**: A single workspace hosts three separate lakehouses—one each for Bronze, Silver, and Gold.
 
 ### ✅ Pros:
@@ -51,8 +47,6 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 ---
 
 ## 🧱 Pattern 3: Separate Workspaces for Each Layer
-
-![Pattern 3](pattern_3.png)
 
 **Structure**: Each medallion layer resides in its own dedicated workspace, with one lakehouse per workspace.
 
@@ -78,9 +72,62 @@ This setup strikes a balance between operational simplicity and architectural ri
 
 ---
 
-## 🧠 Final Thoughts
+## 🌍 Real-World Use Cases
 
-Choosing the right medallion architecture pattern in Fabric isn’t just a technical decision—it’s a strategic one. Consider your team structure, data governance needs, and long-term scalability when selecting a pattern.
+- **Pattern 1**: A startup building a quick MVP with a small team and limited governance needs.
+- **Pattern 2**: A mid-sized enterprise with a centralized data engineering team and moderate governance requirements.
+- **Pattern 3**: A large enterprise with federated data teams, strict compliance, and need for strong isolation.
+
+---
+
+## 📊 Decision Matrix
+
+| Criteria                  | Pattern 1: One Lakehouse | Pattern 2: Three Lakehouses | Pattern 3: Three Workspaces |
+|---------------------------|--------------------------|-----------------------------|-----------------------------|
+| Simplicity                | ✅ High                  | ⚖️ Medium                   | ❌ Low                      |
+| Governance                | ❌ Low                   | ✅ Medium                   | ✅ High                     |
+| Scalability               | ❌ Limited               | ✅ Good                     | ✅ Excellent                |
+| Security Isolation        | ❌ Minimal               | ⚖️ Moderate                 | ✅ Strong                   |
+| Ideal For                 | POCs, small teams        | Most orgs                   | Large, regulated orgs       |
+
+---
+
+## 🧠 Expert Tips
+
+- Use naming conventions like `bronze_`, `silver_`, `gold_` for tables to maintain clarity.
+- Consider using shortcuts or views in Gold to abstract complexity from consumers.
+- Use Fabric pipelines or Dataflows Gen2 to orchestrate transitions between layers.
+- Leverage Fabric’s lineage view to track data flow across lakehouses.
+
+---
+
+## ⚙️ Performance & Cost Considerations
+
+- **Pattern 1** may lead to performance bottlenecks as all workloads share the same lakehouse.
+- **Pattern 2** allows tuning each lakehouse for its specific workload (e.g., ingestion vs. analytics).
+- **Pattern 3** introduces overhead but enables cost attribution and scaling per layer.
+
+---
+
+## 🔗 Integration with Other Fabric Features
+
+- **Power BI**: Gold layer is typically the source for semantic models.
+- **Data Activator**: Can monitor Silver or Gold layers for real-time triggers.
+- **KQL DBs**: Useful for telemetry or log data in the Bronze layer.
+- **Notebooks & Pipelines**: Ideal for orchestrating transformations across layers.
+
+---
+
+## 📣 Call to Action
+
+Have you implemented a medallion architecture in Fabric? Share your experience by opening a pull request or starting a discussion!
+
+Want to contribute diagrams or templates? Fork this repo and help the community grow!
+
+---
+
+*Let’s build better data products—one layer at a time.*
+
 
 And remember: the best architecture is the one that aligns with your business goals while enabling agility and trust in your data.
 
