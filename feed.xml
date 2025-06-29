@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-29T18:48:41+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h1 id="choosing-the-right-fabric-medallion-architecture-one-workspace-or-many">Choosing the Right Fabric Medallion Architecture: One Workspace or Many?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-29T19:24:19+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h1 id="choosing-the-right-fabric-medallion-architecture-one-workspace-or-many">Choosing the Right Fabric Medallion Architecture: One Workspace or Many?</h1>
 
 <p>The medallion architecture—organizing data into <strong>Bronze</strong>, <strong>Silver</strong>, and <strong>Gold</strong> layers—is a foundational design pattern in Microsoft Fabric. It helps teams manage data quality, lineage, and governance by progressively refining data from raw ingestion to curated insights. But how you implement this pattern—especially in terms of workspace and lakehouse design—can significantly impact scalability, security, and operational efficiency.</p>
 
@@ -9,6 +9,8 @@
 <h2 id="-pattern-1-one-workspace-one-lakehouse-all-layers-together">🧱 Pattern 1: One Workspace, One Lakehouse (All Layers Together)</h2>
 
 <p><strong>Structure</strong>: A single Fabric workspace contains one lakehouse, with folders or schemas representing Bronze, Silver, and Gold layers.</p>
+
+<p><img src="pattern_1.png" alt="Pattern 1" /></p>
 
 <h3 id="-pros">✅ Pros:</h3>
 <ul>
@@ -30,6 +32,8 @@
 
 <p><strong>Structure</strong>: A single workspace hosts three separate lakehouses—one each for Bronze, Silver, and Gold.</p>
 
+<p><img src="pattern_2.png" alt="Pattern 2" /></p>
+
 <h3 id="-pros-1">✅ Pros:</h3>
 <ul>
   <li><strong>Layer Isolation</strong>: Clear separation of concerns between ingestion, transformation, and consumption.</li>
@@ -48,6 +52,8 @@
 <h2 id="-pattern-3-separate-workspaces-for-each-layer">🧱 Pattern 3: Separate Workspaces for Each Layer</h2>
 
 <p><strong>Structure</strong>: Each medallion layer resides in its own dedicated workspace, with one lakehouse per workspace.</p>
+
+<p><img src="pattern_3.png" alt="Pattern 3" /></p>
 
 <h3 id="-pros-2">✅ Pros:</h3>
 <ul>
@@ -77,12 +83,12 @@
 
 <hr />
 
-<h2 id="-real-world-use-cases">🌍 Real-World Use Cases</h2>
+<h2 id="-real-world-use-cases">🔍 Real-World Use Cases</h2>
 
 <ul>
-  <li><strong>Pattern 1</strong>: A startup building a quick MVP with a small team and limited governance needs.</li>
-  <li><strong>Pattern 2</strong>: A mid-sized enterprise with a centralized data engineering team and moderate governance requirements.</li>
-  <li><strong>Pattern 3</strong>: A large enterprise with federated data teams, strict compliance, and need for strong isolation.</li>
+  <li><strong>Pattern 1</strong>: Small startup building a quick MVP.</li>
+  <li><strong>Pattern 2</strong>: Mid-sized enterprise with centralized data engineering.</li>
+  <li><strong>Pattern 3</strong>: Large enterprise with federated data teams and strict compliance needs.</li>
 </ul>
 
 <hr />
@@ -140,45 +146,34 @@
   <li>Use naming conventions like <code class="language-plaintext highlighter-rouge">bronze_</code>, <code class="language-plaintext highlighter-rouge">silver_</code>, <code class="language-plaintext highlighter-rouge">gold_</code> for tables to maintain clarity.</li>
   <li>Consider using shortcuts or views in Gold to abstract complexity from consumers.</li>
   <li>Use Fabric pipelines or Dataflows Gen2 to orchestrate transitions between layers.</li>
-  <li>Leverage Fabric’s lineage view to track data flow across lakehouses.</li>
 </ul>
 
 <hr />
 
-<h2 id="️-performance--cost-considerations">⚙️ Performance &amp; Cost Considerations</h2>
+<h2 id="-performance--cost-considerations">📈 Performance &amp; Cost Considerations</h2>
 
 <ul>
-  <li><strong>Pattern 1</strong> may lead to performance bottlenecks as all workloads share the same lakehouse.</li>
-  <li><strong>Pattern 2</strong> allows tuning each lakehouse for its specific workload (e.g., ingestion vs. analytics).</li>
-  <li><strong>Pattern 3</strong> introduces overhead but enables cost attribution and scaling per layer.</li>
+  <li><strong>Data refresh latency</strong>: Lower in Pattern 1, more controllable in Patterns 2 and 3.</li>
+  <li><strong>Compute cost</strong>: Easier to isolate and optimize in Patterns 2 and 3.</li>
+  <li><strong>Storage optimization</strong>: Better with separate lakehouses or workspaces.</li>
 </ul>
 
 <hr />
 
-<h2 id="-integration-with-other-fabric-features">🔗 Integration with Other Fabric Features</h2>
+<h2 id="-integration-with-other-fabric-features">🧩 Integration with Other Fabric Features</h2>
 
 <ul>
-  <li><strong>Power BI</strong>: Gold layer is typically the source for semantic models.</li>
-  <li><strong>Data Activator</strong>: Can monitor Silver or Gold layers for real-time triggers.</li>
-  <li><strong>KQL DBs</strong>: Useful for telemetry or log data in the Bronze layer.</li>
-  <li><strong>Notebooks &amp; Pipelines</strong>: Ideal for orchestrating transformations across layers.</li>
+  <li><strong>Power BI</strong>: Semantic models can be layered on Gold lakehouse.</li>
+  <li><strong>Data Activator</strong>: Can trigger alerts from Silver or Gold layers.</li>
+  <li><strong>Real-time analytics</strong>: KQL DBs can be integrated at the Bronze or Silver stage.</li>
 </ul>
 
 <hr />
 
-<h2 id="-call-to-action">📣 Call to Action</h2>
+<h2 id="️-call-to-action">🗣️ Call to Action</h2>
 
-<p>Have you implemented a medallion architecture in Fabric? Share your experience by opening a pull request or starting a discussion!</p>
-
-<p>Want to contribute diagrams or templates? Fork this repo and help the community grow!</p>
-
-<hr />
-
-<p><em>Let’s build better data products—one layer at a time.</em></p>
-
-<p>And remember: the best architecture is the one that aligns with your business goals while enabling agility and trust in your data.</p>
-
-<hr />]]></content><author><name>Manpreet Ragi</name></author><category term="blog" /><summary type="html"><![CDATA[Choosing the Right Fabric Medallion Architecture: One Workspace or Many?]]></summary></entry><entry><title type="html">Welcome to Bite Analytics!</title><link href="/bi/ai/welcome-to-bite-analytics/" rel="alternate" type="text/html" title="Welcome to Bite Analytics!" /><published>2025-06-22T00:00:00+00:00</published><updated>2025-06-22T00:00:00+00:00</updated><id>/bi/ai/welcome-to-bite-analytics</id><content type="html" xml:base="/bi/ai/welcome-to-bite-analytics/"><![CDATA[<p>👋 <strong>Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence.</strong></p>
+<p>Want to contribute or share your experience with Fabric medallion patterns?<br />
+Open a pull request or start a discussion in the Issues tab!</p>]]></content><author><name>Manpreet Ragi</name></author><category term="blog" /><summary type="html"><![CDATA[Choosing the Right Fabric Medallion Architecture: One Workspace or Many?]]></summary></entry><entry><title type="html">Welcome to Bite Analytics!</title><link href="/bi/ai/welcome-to-bite-analytics/" rel="alternate" type="text/html" title="Welcome to Bite Analytics!" /><published>2025-06-22T00:00:00+00:00</published><updated>2025-06-22T00:00:00+00:00</updated><id>/bi/ai/welcome-to-bite-analytics</id><content type="html" xml:base="/bi/ai/welcome-to-bite-analytics/"><![CDATA[<p>👋 <strong>Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence.</strong></p>
 
 <p>This is our very first blog post, and it’s all about what you can expect from the Bite Analytics journey.</p>
 
