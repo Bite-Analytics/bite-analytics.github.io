@@ -1,60 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-29T14:14:26+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h1 id="microsoft-fabric-a-guide-to-fabric-medallion-architecture">Microsoft Fabric: A Guide to Fabric Medallion Architecture</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-29T18:36:04+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h1 id="choosing-the-right-fabric-medallion-architecture-one-workspace-or-many">Choosing the Right Fabric Medallion Architecture: One Workspace or Many?</h1>
 
-<p><em>By Manpreet Ragi, Analytics Consultant</em></p>
+<p>The medallion architecture—organizing data into <strong>Bronze</strong>, <strong>Silver</strong>, and <strong>Gold</strong> layers—is a foundational design pattern in Microsoft Fabric. It helps teams manage data quality, lineage, and governance by progressively refining data from raw ingestion to curated insights. But how you implement this pattern—especially in terms of workspace and lakehouse design—can significantly impact scalability, security, and operational efficiency.</p>
 
-<p>Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that empowers data professionals and business users alike.</p>
+<p>Let’s explore three common implementation patterns and weigh their trade-offs.</p>
 
-<h2 id="-what-is-microsoft-fabric">🚀 What Is Microsoft Fabric?</h2>
+<hr />
 
-<p>Microsoft Fabric is a Software-as-a-Service (SaaS) data platform that unifies data engineering, data science, real-time analytics, and business intelligence. Power BI is now deeply integrated into this ecosystem, enabling end-to-end workflows from raw data to decision-making—all in one place.</p>
+<h2 id="-pattern-1-one-workspace-one-lakehouse-all-layers-together">🧱 Pattern 1: One Workspace, One Lakehouse (All Layers Together)</h2>
 
-<h2 id="-key-capabilities-power-bi-gains-with-fabric">🔍 Key Capabilities Power BI Gains with Fabric</h2>
+<p><strong>Structure</strong>: A single Fabric workspace contains one lakehouse, with folders or schemas representing Bronze, Silver, and Gold layers.</p>
 
-<h3 id="1-onelake-a-single-source-of-truth">1. <strong>OneLake: A Single Source of Truth</strong></h3>
-
-<p>Fabric introduces OneLake, a unified data lake that eliminates silos. Power BI can now directly access data from lakehouses, warehouses, and KQL databases—no duplication required.</p>
-
-<h3 id="2-direct-lake-mode">2. <strong>Direct Lake Mode</strong></h3>
-
-<p>This new mode allows Power BI to query data directly from OneLake, combining the speed of import mode with the freshness of DirectQuery. It’s ideal for real-time dashboards and large-scale models.</p>
-
-<h3 id="3-copilot--data-activator">3. <strong>Copilot + Data Activator</strong></h3>
-
-<p>Copilot now supports Fabric data agents, enabling natural language Q&amp;A across datasets. Data Activator adds automation—triggering alerts and actions based on data changes.</p>
-
-<h3 id="4-ai-powered-notebooks">4. <strong>AI-Powered Notebooks</strong></h3>
-
-<p>Fabric notebooks bring AI into your data workflows. Use natural language to summarize, translate, or clean data—then visualize results in Power BI.</p>
-
-<h3 id="5-enterprise-grade-governance">5. <strong>Enterprise-Grade Governance</strong></h3>
-
-<p>Fabric centralizes governance with OneSecurity, applying Row-Level and Object-Level Security across your entire data estate—from lakehouse to report.</p>
-
-<h3 id="6-migration-from-power-bi-premium">6. <strong>Migration from Power BI Premium</strong></h3>
-
-<p>Organizations using Power BI Premium (P SKUs) are encouraged to migrate to Fabric SKUs (F SKUs), unlocking new capabilities while preserving existing investments.</p>
-
-<h2 id="-real-world-use-cases">🧠 Real-World Use Cases</h2>
-
+<h3 id="-pros">✅ Pros:</h3>
 <ul>
-  <li><strong>Enterprise Reporting</strong>: Export to Excel and PowerPoint with pixel-perfect formatting—no third-party tools needed.</li>
-  <li><strong>Embedded Analytics</strong>: ISVs can embed Power BI visuals with Fabric’s enhanced APIs and services.</li>
-  <li><strong>Data Science</strong>: Build and deploy ML models in Fabric notebooks, then visualize results in Power BI.</li>
+  <li><strong>Simplicity</strong>: Easy to manage and deploy, especially for small teams or proof-of-concept projects.</li>
+  <li><strong>Unified View</strong>: All data is accessible in one place, which simplifies development and debugging.</li>
+  <li><strong>Lower Overhead</strong>: Fewer artifacts to manage, reducing administrative burden.</li>
 </ul>
 
-<h2 id="-getting-started">📌 Getting Started</h2>
-
+<h3 id="-cons">❌ Cons:</h3>
 <ul>
-  <li>Explore tutorials on the <a href="https://learn.microsoft.com/en-us/fabric/get-started/end-to-end-tutorials">Microsoft Fabric tutorials</a></li>
-  <li>Watch demos on <a href="https://www.youtube.com/watch?v=6">YouTube</a></li>
-  <li>Read the <a href="https://blog.fabric.microsoft.com/en-us/blog/fabric-may-2025-feature-summary/">Fabric May 2025 Feature Summary</a></li>
+  <li><strong>Limited Access Control</strong>: Harder to enforce security boundaries between layers.</li>
+  <li><strong>Scalability Constraints</strong>: As data volume and team size grow, this setup can become unwieldy.</li>
+  <li><strong>Governance Gaps</strong>: Difficult to apply differentiated governance or lifecycle policies per layer.</li>
 </ul>
 
-<h2 id="-final-thoughts">💬 Final Thoughts</h2>
+<hr />
 
-<p>Power BI + Fabric isn’t just a product update—it’s a paradigm shift. For analytics professionals, it means fewer tools, faster insights, and more time spent on what matters: delivering value.</p>
+<h2 id="-pattern-2-one-workspace-three-lakehouses-one-per-layer">🧱 Pattern 2: One Workspace, Three Lakehouses (One per Layer)</h2>
 
-<p>If you’re exploring how to bring Fabric into your analytics strategy, I’d love to connect.</p>]]></content><author><name>Manpreet Ragi</name></author><category term="blog" /><summary type="html"><![CDATA[Microsoft Fabric: A Guide to Fabric Medallion Architecture]]></summary></entry><entry><title type="html">Welcome to Bite Analytics!</title><link href="/bi/ai/welcome-to-bite-analytics/" rel="alternate" type="text/html" title="Welcome to Bite Analytics!" /><published>2025-06-22T00:00:00+00:00</published><updated>2025-06-22T00:00:00+00:00</updated><id>/bi/ai/welcome-to-bite-analytics</id><content type="html" xml:base="/bi/ai/welcome-to-bite-analytics/"><![CDATA[<p>👋 <strong>Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence.</strong></p>
+<p><strong>Structure</strong>: A single workspace hosts three separate lakehouses—one each for Bronze, Silver, and Gold.</p>
+
+<h3 id="-pros-1">✅ Pros:</h3>
+<ul>
+  <li><strong>Layer Isolation</strong>: Clear separation of concerns between ingestion, transformation, and consumption.</li>
+  <li><strong>Improved Governance</strong>: Easier to apply policies and monitor lineage at the lakehouse level.</li>
+  <li><strong>Better Performance Tuning</strong>: Each lakehouse can be optimized for its specific workload.</li>
+</ul>
+
+<h3 id="-cons-1">❌ Cons:</h3>
+<ul>
+  <li><strong>Moderate Complexity</strong>: Requires more coordination between lakehouses.</li>
+  <li><strong>Shared Workspace Risks</strong>: All layers still share the same workspace-level permissions and capacity.</li>
+</ul>
+
+<hr />
+
+<h2 id="-pattern-3-separate-workspaces-for-each-layer">🧱 Pattern 3: Separate Workspaces for Each Layer</h2>
+
+<p><strong>Structure</strong>: Each medallion layer resides in its own dedicated workspace, with one lakehouse per workspace.</p>
+
+<h3 id="-pros-2">✅ Pros:</h3>
+<ul>
+  <li><strong>Maximum Isolation</strong>: Ideal for large organizations with distinct teams managing each layer.</li>
+  <li><strong>Granular Security</strong>: Workspace-level RBAC enables strict access control.</li>
+  <li><strong>Scalable Governance</strong>: Supports enterprise-grade data governance and compliance.</li>
+</ul>
+
+<h3 id="-cons-2">❌ Cons:</h3>
+<ul>
+  <li><strong>High Complexity</strong>: More moving parts to manage, including cross-workspace data sharing.</li>
+  <li><strong>Increased Overhead</strong>: Requires robust DevOps and orchestration practices.</li>
+  <li><strong>Latency Risk</strong>: Data movement between workspaces may introduce delays.</li>
+</ul>
+
+<hr />
+
+<h2 id="-most-common-pattern">🏆 Most Common Pattern</h2>
+
+<p>According to Microsoft Learn and internal best practices, the most commonly recommended pattern is:</p>
+
+<blockquote>
+  <p><strong>Pattern 2: One Workspace with Three Lakehouses</strong></p>
+</blockquote>
+
+<p>This setup strikes a balance between operational simplicity and architectural rigor. It allows for clear separation of data processing stages while maintaining manageable complexity and governance.</p>
+
+<hr />
+
+<h2 id="-final-thoughts">🧠 Final Thoughts</h2>
+
+<p>Choosing the right medallion architecture pattern in Fabric isn’t just a technical decision—it’s a strategic one. Consider your team structure, data governance needs, and long-term scalability when selecting a pattern.</p>
+
+<p>And remember: the best architecture is the one that aligns with your business goals while enabling agility and trust in your data.</p>
+
+<hr />
+
+<p><em>Want to contribute or share your experience with Fabric medallion patterns? Open a pull request or start a discussion in the Issues tab!</em></p>]]></content><author><name>Manpreet Ragi</name></author><category term="blog" /><summary type="html"><![CDATA[Choosing the Right Fabric Medallion Architecture: One Workspace or Many?]]></summary></entry><entry><title type="html">Welcome to Bite Analytics!</title><link href="/bi/ai/welcome-to-bite-analytics/" rel="alternate" type="text/html" title="Welcome to Bite Analytics!" /><published>2025-06-22T00:00:00+00:00</published><updated>2025-06-22T00:00:00+00:00</updated><id>/bi/ai/welcome-to-bite-analytics</id><content type="html" xml:base="/bi/ai/welcome-to-bite-analytics/"><![CDATA[<p>👋 <strong>Hey there! Welcome to Bite Analytics — your new home for smart, simple insights into Business Intelligence and Artificial Intelligence.</strong></p>
 
 <p>This is our very first blog post, and it’s all about what you can expect from the Bite Analytics journey.</p>
 
