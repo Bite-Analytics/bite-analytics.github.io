@@ -1,10 +1,4 @@
 var store = [{
-        "title": "Post: Link",
-        "excerpt":"This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.      And this is how a quote looks.    Some link can also be shown.  ","categories": ["Blog"],
-        "tags": ["link","Post Formats"],
-        "url": "/blog/post-link/",
-        "teaser": null
-      },{
         "title": "Power BI + Microsoft Fabric: A Unified Analytics Experience",
         "excerpt":"Power BI + Microsoft Fabric: A Unified Analytics Experience By Manpreet Ragi, Analytics Consultant Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that empowers data professionals...","categories": [],
         "tags": [],
