@@ -6,6 +6,7 @@ layout: single
 author_profile: true
 ---
 
+
 # Choosing the Right Fabric Medallion Architecture: One Workspace or Many?
 
 The medallion architecture—organizing data into **Bronze**, **Silver**, and **Gold** layers—is a foundational design pattern in Microsoft Fabric. It helps teams manage data quality, lineage, and governance by progressively refining data from raw ingestion to curated insights. But how you implement this pattern—especially in terms of workspace and lakehouse design—can significantly impact scalability, security, and operational efficiency.
@@ -15,6 +16,8 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 ---
 
 ## 🧱 Pattern 1: One Workspace, One Lakehouse (All Layers Together)
+
+![Pattern 1](pattern_1.png)
 
 **Structure**: A single Fabric workspace contains one lakehouse, with folders or schemas representing Bronze, Silver, and Gold layers.
 
@@ -32,6 +35,8 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 ## 🧱 Pattern 2: One Workspace, Three Lakehouses (One per Layer)
 
+![Pattern 2](pattern_2.png)
+
 **Structure**: A single workspace hosts three separate lakehouses—one each for Bronze, Silver, and Gold.
 
 ### ✅ Pros:
@@ -46,6 +51,8 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 ---
 
 ## 🧱 Pattern 3: Separate Workspaces for Each Layer
+
+![Pattern 3](pattern_3.png)
 
 **Structure**: Each medallion layer resides in its own dedicated workspace, with one lakehouse per workspace.
 
@@ -79,5 +86,4 @@ And remember: the best architecture is the one that aligns with your business go
 
 ---
 
-*Want to contribute or share your experience with Fabric medallion patterns? Open a pull request or start a discussion in the Issues tab!*
 
