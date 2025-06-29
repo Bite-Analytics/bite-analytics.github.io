@@ -1,10 +1,4 @@
 var store = [{
-        "title": "Post: Chat",
-        "excerpt":"Abbott: Strange as it may seem, they give ball players nowadays very peculiar names. Costello: Funny names? Abbott: Nicknames, nicknames. Now, on the St. Louis team we have Who’s on first, What’s on second, I Don’t Know is on third– Costello: That’s what I want to find out. I want...","categories": ["Blog"],
-        "tags": ["chat","Post Formats"],
-        "url": "/blog/post-chat/",
-        "teaser": null
-      },{
         "title": "Post: Notice",
         "excerpt":"A notice displays information that explains nearby content. Often used to call attention to a particular detail. When using Kramdown {: .notice} can be added after a sentence to assign the .notice to the &lt;p&gt;&lt;/p&gt; element. Changes in Service: We just updated our privacy policy here to better service our...","categories": ["Blog"],
         "tags": ["Post Formats","notice"],
