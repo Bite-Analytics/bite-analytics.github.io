@@ -1,10 +1,4 @@
 var store = [{
-        "title": "Post: Quote",
-        "excerpt":"   Only one thing is impossible for God: To find any sense in any copyright law on the planet.       Mark Twain   ","categories": ["Blog"],
-        "tags": ["Post Formats","quote"],
-        "url": "/blog/post-quote/",
-        "teaser": null
-      },{
         "title": "Post: Link",
         "excerpt":"This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.      And this is how a quote looks.    Some link can also be shown.  ","categories": ["Blog"],
         "tags": ["link","Post Formats"],
