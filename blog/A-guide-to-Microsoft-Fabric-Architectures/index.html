@@ -295,7 +295,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          2 minute read
+          3 minute read
         
       </span>
     
@@ -317,8 +317,6 @@
 
 <h2 id="-pattern-1-one-workspace-one-lakehouse-all-layers-together">🧱 Pattern 1: One Workspace, One Lakehouse (All Layers Together)</h2>
 
-<p><img src="pattern_1.png" alt="Pattern 1" /></p>
-
 <p><strong>Structure</strong>: A single Fabric workspace contains one lakehouse, with folders or schemas representing Bronze, Silver, and Gold layers.</p>
 
 <h3 id="-pros">✅ Pros:</h3>
@@ -339,8 +337,6 @@
 
 <h2 id="-pattern-2-one-workspace-three-lakehouses-one-per-layer">🧱 Pattern 2: One Workspace, Three Lakehouses (One per Layer)</h2>
 
-<p><img src="pattern_2.png" alt="Pattern 2" /></p>
-
 <p><strong>Structure</strong>: A single workspace hosts three separate lakehouses—one each for Bronze, Silver, and Gold.</p>
 
 <h3 id="-pros-1">✅ Pros:</h3>
@@ -359,8 +355,6 @@
 <hr />
 
 <h2 id="-pattern-3-separate-workspaces-for-each-layer">🧱 Pattern 3: Separate Workspaces for Each Layer</h2>
-
-<p><img src="pattern_3.png" alt="Pattern 3" /></p>
 
 <p><strong>Structure</strong>: Each medallion layer resides in its own dedicated workspace, with one lakehouse per workspace.</p>
 
@@ -392,9 +386,104 @@
 
 <hr />
 
-<h2 id="-final-thoughts">🧠 Final Thoughts</h2>
+<h2 id="-real-world-use-cases">🌍 Real-World Use Cases</h2>
 
-<p>Choosing the right medallion architecture pattern in Fabric isn’t just a technical decision—it’s a strategic one. Consider your team structure, data governance needs, and long-term scalability when selecting a pattern.</p>
+<ul>
+  <li><strong>Pattern 1</strong>: A startup building a quick MVP with a small team and limited governance needs.</li>
+  <li><strong>Pattern 2</strong>: A mid-sized enterprise with a centralized data engineering team and moderate governance requirements.</li>
+  <li><strong>Pattern 3</strong>: A large enterprise with federated data teams, strict compliance, and need for strong isolation.</li>
+</ul>
+
+<hr />
+
+<h2 id="-decision-matrix">📊 Decision Matrix</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criteria</th>
+      <th>Pattern 1: One Lakehouse</th>
+      <th>Pattern 2: Three Lakehouses</th>
+      <th>Pattern 3: Three Workspaces</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Simplicity</td>
+      <td>✅ High</td>
+      <td>⚖️ Medium</td>
+      <td>❌ Low</td>
+    </tr>
+    <tr>
+      <td>Governance</td>
+      <td>❌ Low</td>
+      <td>✅ Medium</td>
+      <td>✅ High</td>
+    </tr>
+    <tr>
+      <td>Scalability</td>
+      <td>❌ Limited</td>
+      <td>✅ Good</td>
+      <td>✅ Excellent</td>
+    </tr>
+    <tr>
+      <td>Security Isolation</td>
+      <td>❌ Minimal</td>
+      <td>⚖️ Moderate</td>
+      <td>✅ Strong</td>
+    </tr>
+    <tr>
+      <td>Ideal For</td>
+      <td>POCs, small teams</td>
+      <td>Most orgs</td>
+      <td>Large, regulated orgs</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-expert-tips">🧠 Expert Tips</h2>
+
+<ul>
+  <li>Use naming conventions like <code class="language-plaintext highlighter-rouge">bronze_</code>, <code class="language-plaintext highlighter-rouge">silver_</code>, <code class="language-plaintext highlighter-rouge">gold_</code> for tables to maintain clarity.</li>
+  <li>Consider using shortcuts or views in Gold to abstract complexity from consumers.</li>
+  <li>Use Fabric pipelines or Dataflows Gen2 to orchestrate transitions between layers.</li>
+  <li>Leverage Fabric’s lineage view to track data flow across lakehouses.</li>
+</ul>
+
+<hr />
+
+<h2 id="️-performance--cost-considerations">⚙️ Performance &amp; Cost Considerations</h2>
+
+<ul>
+  <li><strong>Pattern 1</strong> may lead to performance bottlenecks as all workloads share the same lakehouse.</li>
+  <li><strong>Pattern 2</strong> allows tuning each lakehouse for its specific workload (e.g., ingestion vs. analytics).</li>
+  <li><strong>Pattern 3</strong> introduces overhead but enables cost attribution and scaling per layer.</li>
+</ul>
+
+<hr />
+
+<h2 id="-integration-with-other-fabric-features">🔗 Integration with Other Fabric Features</h2>
+
+<ul>
+  <li><strong>Power BI</strong>: Gold layer is typically the source for semantic models.</li>
+  <li><strong>Data Activator</strong>: Can monitor Silver or Gold layers for real-time triggers.</li>
+  <li><strong>KQL DBs</strong>: Useful for telemetry or log data in the Bronze layer.</li>
+  <li><strong>Notebooks &amp; Pipelines</strong>: Ideal for orchestrating transformations across layers.</li>
+</ul>
+
+<hr />
+
+<h2 id="-call-to-action">📣 Call to Action</h2>
+
+<p>Have you implemented a medallion architecture in Fabric? Share your experience by opening a pull request or starting a discussion!</p>
+
+<p>Want to contribute diagrams or templates? Fork this repo and help the community grow!</p>
+
+<hr />
+
+<p><em>Let’s build better data products—one layer at a time.</em></p>
 
 <p>And remember: the best architecture is the one that aligns with your business goals while enabling agility and trust in your data.</p>
 
