@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-30T16:45:39+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h2 id="-onelake-vs-lakehouses-whats-the-difference">🧠 OneLake vs Lakehouses: What’s the Difference?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-30T16:47:23+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h2 id="-onelake-vs-lakehouses-whats-the-difference">🧠 OneLake vs Lakehouses: What’s the Difference?</h2>
 
 <p><strong>OneLake</strong> is the unified, organization-wide data lake in Microsoft Fabric—think of it as the single storage system for your entire data estate.</p>
 
@@ -240,28 +240,4 @@
 
 <p>Power BI + Fabric isn’t just a product update—it’s a paradigm shift. For analytics professionals, it means fewer tools, faster insights, and more time spent on what matters: delivering value.</p>
 
-<p>If you’re exploring how to bring Fabric into your analytics strategy, I’d love to connect.</p>]]></content><author><name>Manpreet Ragi</name></author><summary type="html"><![CDATA[By Manpreet Ragi, Analytics Consultant]]></summary></entry><entry><title type="html">Power BI + Microsoft Fabric: A Unified Analytics Experience</title><link href="/welcome-to-bite-analytics/" rel="alternate" type="text/html" title="Power BI + Microsoft Fabric: A Unified Analytics Experience" /><published>2025-06-21T00:00:00+00:00</published><updated>2025-06-21T00:00:00+00:00</updated><id>/welcome-to-bite-analytics</id><content type="html" xml:base="/welcome-to-bite-analytics/"><![CDATA[<p><em>By Manpreet Ragi, Analytics Consultant</em></p>
-
-<hr />
-
-<p>Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that empowers data professionals and business users alike.</p>
-
-<h2 id="-what-is-microsoft-fabric">🚀 What Is Microsoft Fabric?</h2>
-
-<p>Microsoft Fabric is a <strong>Software-as-a-Service (SaaS)</strong> data platform that unifies data engineering, data science, real-time analytics, and business intelligence. Power BI is now deeply integrated into this ecosystem, enabling <strong>end-to-end workflows</strong> from raw data to decision-making—all in one place.</p>
-
-<hr />
-
-<h2 id="-key-capabilities-power-bi-gains-with-fabric">🔍 Key Capabilities Power BI Gains with Fabric</h2>
-
-<h3 id="1-onelake-a-single-source-of-truth">1. <strong>OneLake: A Single Source of Truth</strong></h3>
-<p>Fabric introduces <strong>OneLake</strong>, a unified data lake that eliminates silos. Power BI can now directly access data from <strong>lakehouses</strong>, <strong>warehouses</strong>, and <strong>KQL databases</strong>—no duplication required.</p>
-
-<h3 id="2-direct-lake-mode">2. <strong>Direct Lake Mode</strong></h3>
-<p>This new mode allows Power BI to query data directly from OneLake, <strong>combining the speed of import mode with the freshness of DirectQuery</strong>. It’s ideal for real-time dashboards and large-scale models.</p>
-
-<h3 id="3-copilot--data-activator">3. <strong>Copilot + Data Activator</strong></h3>
-<p>Copilot now supports Fabric data agents, enabling <strong>natural language Q&amp;A across datasets</strong>. Data Activator adds automation—<strong>triggering alerts and actions based on data changes</strong>.</p>
-
-<h3 id="4-ai-powered-notebooks">4. <strong>AI-Powered Notebooks</strong></h3>
-<p>Fabric notebooks bring AI into your</p>]]></content><author><name>Manpreet Ragi</name></author><summary type="html"><![CDATA[By Manpreet Ragi, Analytics Consultant]]></summary></entry></feed>
+<p>If you’re exploring how to bring Fabric into your analytics strategy, I’d love to connect.</p>]]></content><author><name>Manpreet Ragi</name></author><summary type="html"><![CDATA[By Manpreet Ragi, Analytics Consultant]]></summary></entry></feed>
