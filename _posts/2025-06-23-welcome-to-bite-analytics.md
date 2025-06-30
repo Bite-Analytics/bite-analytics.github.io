@@ -44,4 +44,4 @@ Each week, we’ll be sharing:
 
 Make sure to **subscribe** on [YouTube](https://www.youtube.com/@biteanalytics) and follow the blog so you never miss a post.
 
-Thanks for joining us — let’s make data delicious! 🍽️📊
+Thanks for joining us.
