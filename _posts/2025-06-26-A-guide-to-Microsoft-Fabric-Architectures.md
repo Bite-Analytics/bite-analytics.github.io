@@ -7,9 +7,19 @@ author_profile: true
 ---
 
 
+## 🧠 OneLake vs Lakehouses: What's the Difference?
+
+**OneLake** is the unified, organization-wide data lake in Microsoft Fabric—think of it as the single storage system for your entire data estate.
+
+**Lakehouses** are logical containers *within* OneLake that organize and manage data using a structured format (like tables). Each lakehouse can represent a specific layer (e.g., Bronze, Silver, Gold) or workload.
+
+> 🔑 **Analogy**: OneLake is the *entire building*; lakehouses are the *individual apartments* inside it.
+
 # Choosing the Right Fabric Medallion Architecture: One Workspace or Many?
 
 The medallion architecture—organizing data into **Bronze**, **Silver**, and **Gold** layers—is a foundational design pattern in Microsoft Fabric. It helps teams manage data quality, lineage, and governance by progressively refining data from raw ingestion to curated insights. But how you implement this pattern—especially in terms of workspace and lakehouse design—can significantly impact scalability, security, and operational efficiency.
+
+
 
 Let’s explore three common implementation patterns and weigh their trade-offs.
 
