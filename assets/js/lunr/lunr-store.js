@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Microsoft Fabric Medallion Architectures",
-        "excerpt":"Choosing the Right Fabric Medallion Architecture: One Workspace or Many? The medallion architecture—organizing data into Bronze, Silver, and Gold layers—is a foundational design pattern in Microsoft Fabric. It helps teams manage data quality, lineage, and governance by progressively refining data from raw ingestion to curated insights. But how you implement...","categories": ["blog"],
+        "excerpt":"🧠 OneLake vs Lakehouses: What’s the Difference? OneLake is the unified, organization-wide data lake in Microsoft Fabric—think of it as the single storage system for your entire data estate. Lakehouses are logical containers within OneLake that organize and manage data using a structured format (like tables). Each lakehouse can represent...","categories": ["blog"],
         "tags": [],
         "url": "/blog/A-guide-to-Microsoft-Fabric-Architectures/",
         "teaser": null
