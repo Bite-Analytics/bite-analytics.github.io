@@ -19,7 +19,7 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 **Structure**: A single Fabric workspace contains one lakehouse, with folders or schemas representing Bronze, Silver, and Gold layers.
 
-![Pattern 1](pattern_1.png)
+![Pattern 1](/assets/images/pattern_1.png)
 
 ### ✅ Pros:
 - **Simplicity**: Easy to manage and deploy, especially for small teams or proof-of-concept projects.
@@ -37,7 +37,7 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 **Structure**: A single workspace hosts three separate lakehouses—one each for Bronze, Silver, and Gold.
 
-![Pattern 2](pattern_2.png)
+![Pattern 2](/assets/images/pattern_2.png)
 
 ### ✅ Pros:
 - **Layer Isolation**: Clear separation of concerns between ingestion, transformation, and consumption.
@@ -54,7 +54,7 @@ Let’s explore three common implementation patterns and weigh their trade-offs.
 
 **Structure**: Each medallion layer resides in its own dedicated workspace, with one lakehouse per workspace.
 
-![Pattern 3](pattern_3.png)
+![Pattern 3](/assets/images/pattern_3.png)
 
 ### ✅ Pros:
 - **Maximum Isolation**: Ideal for large organizations with distinct teams managing each layer.
