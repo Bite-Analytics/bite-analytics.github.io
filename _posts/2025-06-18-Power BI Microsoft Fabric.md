@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-*By Manpreet Ragi, Analytics Consultant*
-
 ---
 
 Microsoft Fabric is reshaping the analytics landscape—and Power BI is at the heart of this transformation. As organizations demand faster insights, tighter governance, and more seamless collaboration, Fabric delivers a unified platform that empowers data professionals and business users alike.
