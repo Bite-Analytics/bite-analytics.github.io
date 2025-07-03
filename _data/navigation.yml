@@ -10,3 +10,6 @@ main:
 
   - title: "YouTube"
     url: "https://www.youtube.com/@bite-analytics"  # ← Replace with your actual channel link
+    
+  - title: "Training"
+    url: /training/
