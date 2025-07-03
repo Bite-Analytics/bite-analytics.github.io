@@ -5,7 +5,7 @@ permalink: /training/
 author_profile: true
 ---
 
-## 🎓 Bite Analytics Training
+## 🎓 Bite Analytics Training on Udemy
 
 I offer hands-on, practical training for Power BI, Microsoft Fabric, and modern data analytics.
 
@@ -13,6 +13,6 @@ Whether you're just starting or want to upskill your team, this space will provi
 - 👨‍🏫 Links to my Udemy courses
 
 
-👉 **[Check out my Udemy course here](https://www.udemy.com/course/mastering-power-bi-transforming-data-into-insights/)**
+👉 **[Mastering Power BI - Transforming Data into Insights](https://www.udemy.com/course/mastering-power-bi-transforming-data-into-insights/)**
 
 Stay tuned — more structured training content is coming soon!
