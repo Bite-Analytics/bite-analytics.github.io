@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-11T14:34:51+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h2 id="-onelake-vs-lakehouses-whats-the-difference">🧠 OneLake vs Lakehouses: What’s the Difference?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-11T14:37:21+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">10 Power BI Best Practices You Should Know</title><link href="/Top-10-Power-BI-Best-Practice-tips/" rel="alternate" type="text/html" title="10 Power BI Best Practices You Should Know" /><published>2025-07-10T00:00:00+00:00</published><updated>2025-07-10T00:00:00+00:00</updated><id>/Top%2010%20Power%20BI%20Best%20Practice%20tips</id><content type="html" xml:base="/Top-10-Power-BI-Best-Practice-tips/"><![CDATA[<h1 id="-10-power-bi-best-practices-every-analyst-should-know">✅ 10 Power BI Best Practices Every Analyst Should Know</h1>
+
+<p><em>By Manpreet Ragi – Sr Cons, Analytics Experience</em></p>
+
+<hr />
+
+<p>10 Power BI Developer Habits That Will Save You Hours.</p>
+
+<p>Power BI is a powerful tool—but like any tool, its effectiveness depends on how you use it. Over the years, I’ve seen dashboards that are fast, scalable, and easy to maintain—and others that are, well, not.</p>
+
+<p>Here are 10 best practices I recommend to anyone building Power BI reports, whether you’re just starting out or looking to level up your data modeling game.</p>
+
+<hr />
+
+<h2 id="1--use-a-custom-date-table">1. 📅 Use a Custom Date Table</h2>
+
+<p>Avoid relying on Power BI’s auto-generated date tables. Instead, create a <strong>custom date table</strong> with full control over fiscal periods, holidays, and formatting. This improves performance and ensures consistency across reports.</p>
+
+<blockquote>
+  <p>Bonus: Mark it as a “Date Table” in the model to enable time intelligence functions.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="2--organize-measures-into-a-dedicated-table">2. 📦 Organize Measures into a Dedicated Table</h2>
+
+<p>Create a <strong>“Measures” table</strong> to store all your DAX measures. This keeps your model tidy and makes it easier for users to find what they need.</p>
+
+<blockquote>
+  <p>Tip: Use <code class="language-plaintext highlighter-rouge">Enter Data</code> to create an empty table, then move your measures into it.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="3--create-explicit-measures">3. ➕ Create Explicit Measures</h2>
+
+<p>Avoid dragging and dropping fields into visuals without defining measures. Instead, write <strong>explicit DAX measures</strong> using <code class="language-plaintext highlighter-rouge">SUM()</code>, <code class="language-plaintext highlighter-rouge">COUNTROWS()</code>, etc. This gives you more control and improves performance.</p>
+
+<hr />
+
+<h2 id="4-️-name-queries-and-tables-clearly">4. 🏷️ Name Queries and Tables Clearly</h2>
+
+<p>Use <strong>descriptive, consistent names</strong> for your queries and tables. Avoid names like <code class="language-plaintext highlighter-rouge">Table1</code> or <code class="language-plaintext highlighter-rouge">Query2</code>. Good naming helps with collaboration and makes your model self-documenting.</p>
+
+<hr />
+
+<h2 id="5--hide-unused-fields">5. 🧹 Hide Unused Fields</h2>
+
+<p>If a column isn’t used in visuals or calculations, <strong>hide it from report view</strong>. This declutters the field list and improves the user experience.</p>
+
+<blockquote>
+  <p>Especially useful for technical columns like surrogate keys or raw IDs.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="6--build-a-star-schema">6. ⭐ Build a Star Schema</h2>
+
+<p>Design your model using a <strong>star schema</strong>: fact tables in the center, surrounded by dimension tables. This structure is optimized for Power BI’s engine and simplifies relationships.</p>
+
+<blockquote>
+  <p>Avoid snowflake schemas unless absolutely necessary.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="7--filter-out-unnecessary-data-at-least-during-dev">7. 🧽 Filter Out Unnecessary Data (At least during Dev)</h2>
+
+<p>During development, <strong>limit your data volume</strong> by filtering out irrelevant rows or columns. This speeds up refreshes and makes debugging easier.</p>
+
+<blockquote>
+  <p>Use parameters or filters in Power Query to control what loads.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="8--avoid-bi-directional-relationships">8. 🚫 Avoid Bi-Directional Relationships</h2>
+
+<p>Use <strong>single-directional relationships</strong> unless you have a strong reason not to. Bi-directional filters can lead to performance issues and ambiguous results.</p>
+
+<blockquote>
+  <p>If you must use them, document why and test thoroughly.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="9--use-field-parameters-and-bookmarks">9. 🧭 Use Field Parameters and Bookmarks</h2>
+
+<p>Leverage <strong>field parameters</strong> to let users switch between measures or dimensions dynamically. Combine with <strong>bookmarks</strong> for guided storytelling and interactivity.</p>
+
+<blockquote>
+  <p>Great for executive dashboards and self-service reports.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="10--use-calculation-groups">10. 🧮 Use Calculation Groups</h2>
+
+<p><strong>Calculation groups</strong> (via Tabular Editor) allow you to apply logic like time intelligence across multiple measures with minimal code duplication.</p>
+
+<blockquote>
+  <p>Example: Create a “Time Intelligence” group with YTD, QTD, MTD, etc.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="-final-thoughts">🧠 Final Thoughts</h2>
+
+<p>Power BI is more than just visuals—it’s about building models that scale, perform, and tell a story. These 10 tips are foundational habits that will save you time, reduce errors, and impress your stakeholders.</p>
+
+<p>What are your favorite Power BI best practices? I’d love to hear.</p>]]></content><author><name>Manpreet Ragi</name></author><summary type="html"><![CDATA[✅ 10 Power BI Best Practices Every Analyst Should Know]]></summary></entry><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h2 id="-onelake-vs-lakehouses-whats-the-difference">🧠 OneLake vs Lakehouses: What’s the Difference?</h2>
 
 <p><strong>OneLake</strong> is the unified, organization-wide data lake in Microsoft Fabric—think of it as the single storage system for your entire data estate.</p>
 

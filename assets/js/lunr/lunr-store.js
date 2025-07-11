@@ -10,4 +10,10 @@ var store = [{
         "tags": [],
         "url": "/blog/A-guide-to-Microsoft-Fabric-Architectures/",
         "teaser": null
+      },{
+        "title": "10 Power BI Best Practices You Should Know",
+        "excerpt":"✅ 10 Power BI Best Practices Every Analyst Should Know By Manpreet Ragi – Sr Cons, Analytics Experience 10 Power BI Developer Habits That Will Save You Hours. Power BI is a powerful tool—but like any tool, its effectiveness depends on how you use it. Over the years, I’ve seen...","categories": [],
+        "tags": [],
+        "url": "/Top-10-Power-BI-Best-Practice-tips/",
+        "teaser": null
       }]
