@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-11T14:37:21+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">10 Power BI Best Practices You Should Know</title><link href="/Top-10-Power-BI-Best-Practice-tips/" rel="alternate" type="text/html" title="10 Power BI Best Practices You Should Know" /><published>2025-07-10T00:00:00+00:00</published><updated>2025-07-10T00:00:00+00:00</updated><id>/Top%2010%20Power%20BI%20Best%20Practice%20tips</id><content type="html" xml:base="/Top-10-Power-BI-Best-Practice-tips/"><![CDATA[<h1 id="-10-power-bi-best-practices-every-analyst-should-know">✅ 10 Power BI Best Practices Every Analyst Should Know</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-11T14:49:51+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">10 Power BI Best Practices You Should Know</title><link href="/Top-10-Power-BI-Best-Practice-tips/" rel="alternate" type="text/html" title="10 Power BI Best Practices You Should Know" /><published>2025-07-10T00:00:00+00:00</published><updated>2025-07-10T00:00:00+00:00</updated><id>/Top%2010%20Power%20BI%20Best%20Practice%20tips</id><content type="html" xml:base="/Top-10-Power-BI-Best-Practice-tips/"><![CDATA[<h1 id="-10-power-bi-best-practices-you-should-know">✅ 10 Power BI Best Practices You Should Know</h1>
 
-<p><em>By Manpreet Ragi – Sr Cons, Analytics Experience</em></p>
+<p><em>By Manpreet Ragi</em></p>
 
 <hr />
 
@@ -104,11 +104,16 @@
 
 <hr />
 
-<h2 id="-final-thoughts">🧠 Final Thoughts</h2>
+<h2 id="-wrapping-up">🎯 Wrapping Up</h2>
 
-<p>Power BI is more than just visuals—it’s about building models that scale, perform, and tell a story. These 10 tips are foundational habits that will save you time, reduce errors, and impress your stakeholders.</p>
+<p>These 10 habits and features are small tweaks with big impact. Mastering them will make your Power BI models more scalable, maintainable, and developer-friendly — and ultimately save you hours in rework.</p>
 
-<p>What are your favorite Power BI best practices? I’d love to hear.</p>]]></content><author><name>Manpreet Ragi</name></author><summary type="html"><![CDATA[✅ 10 Power BI Best Practices Every Analyst Should Know]]></summary></entry><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h2 id="-onelake-vs-lakehouses-whats-the-difference">🧠 OneLake vs Lakehouses: What’s the Difference?</h2>
+<p>Which ones are part of your workflow already?
+Which ones are you adding to your toolkit?</p>
+
+<p>What are your favorite Power BI best practices? I’d love to hear.</p>
+
+<p>If you looking for a more structured appraoch to learning Power BI then do check out my Power BI course on Udemy - Look for the training tab above.</p>]]></content><author><name>Manpreet Ragi</name></author><summary type="html"><![CDATA[✅ 10 Power BI Best Practices You Should Know]]></summary></entry><entry><title type="html">Microsoft Fabric Medallion Architectures</title><link href="/blog/A-guide-to-Microsoft-Fabric-Architectures/" rel="alternate" type="text/html" title="Microsoft Fabric Medallion Architectures" /><published>2025-06-26T00:00:00+00:00</published><updated>2025-06-26T00:00:00+00:00</updated><id>/blog/A-guide-to-Microsoft-Fabric-Architectures</id><content type="html" xml:base="/blog/A-guide-to-Microsoft-Fabric-Architectures/"><![CDATA[<h2 id="-onelake-vs-lakehouses-whats-the-difference">🧠 OneLake vs Lakehouses: What’s the Difference?</h2>
 
 <p><strong>OneLake</strong> is the unified, organization-wide data lake in Microsoft Fabric—think of it as the single storage system for your entire data estate.</p>
 
