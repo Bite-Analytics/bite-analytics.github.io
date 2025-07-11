@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-# ✅ 10 Power BI Best Practices You Should Know
-
 *By Manpreet Ragi*
 
 ---
