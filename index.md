@@ -7,4 +7,4 @@ author_profile: true
 Welcome to **Bite Analytics** — where **BI** and **AI** come together to help you make smarter, faster decisions.  
 🎥 Watch our latest video below 👇
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PY2WTQxuIMI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=PY2WTQxuIMI&t=179s" frameborder="0" allowfullscreen></iframe>
