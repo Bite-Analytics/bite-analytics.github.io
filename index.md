@@ -8,7 +8,7 @@ Welcome to **Bite Analytics** — where **BI** and **AI** come together to help 
 🎥 Watch our latest video below 👇
 
 <iframe width="560" height="315" 
-  src="https://www.youtube.com/embed/PY2WTQxuIMI?start=179" 
+  src="https://www.youtube.com/embed/PY2WTQxuIMI" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
