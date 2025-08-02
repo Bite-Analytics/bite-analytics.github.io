@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-15T14:29:57+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">10 Power BI Best Practices You Should Know</title><link href="/Top-10-Power-BI-Best-Practice-tips/" rel="alternate" type="text/html" title="10 Power BI Best Practices You Should Know" /><published>2025-07-10T00:00:00+00:00</published><updated>2025-07-10T00:00:00+00:00</updated><id>/Top%2010%20Power%20BI%20Best%20Practice%20tips</id><content type="html" xml:base="/Top-10-Power-BI-Best-Practice-tips/"><![CDATA[<p><em>By Manpreet Ragi</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-02T13:41:54+00:00</updated><id>/feed.xml</id><title type="html">Bite-Analytics</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Manpreet Ragi</name></author><entry><title type="html">Declutter Your Power BI Visuals with Dynamic TOPN</title><link href="/power%20bi/dax/Power-BI-Dynamic-TOPN/" rel="alternate" type="text/html" title="Declutter Your Power BI Visuals with Dynamic TOPN" /><published>2025-08-02T00:00:00+00:00</published><updated>2025-08-02T00:00:00+00:00</updated><id>/power%20bi/dax/Power%20BI%20Dynamic%20TOPN</id><content type="html" xml:base="/power%20bi/dax/Power-BI-Dynamic-TOPN/"><![CDATA[<h2 id="-declutter-your-power-bi-visuals-with-dynamic-topn">🧠 Declutter Your Power BI Visuals with Dynamic TOPN</h2>
+
+<h3 id="tired-of-over-crowded-visuals-that-dont-say-much">Tired of over-crowded visuals that don’t say much?</h3>
+
+<p>One of the most common issues in Power BI reports is a <strong>bar chart (or table) overflowing with category values</strong> — sometimes dozens. Sure, the data is technically complete… but is it really helping the user focus?</p>
+
+<p>Probably not.</p>
+
+<p>When visuals are <strong>too busy</strong>, they lose clarity and purpose. That’s where <strong>Dynamic TOPN</strong> comes in.</p>
+
+<hr />
+
+<h3 id="-what-is-dynamic-topn">🎯 What is Dynamic TOPN?</h3>
+
+<p>Instead of showing every single category, you can show only the <strong>Top N performing values</strong> — where <strong>N is defined by the user</strong>, using a slicer or dropdown.</p>
+
+<p>For example:</p>
+<ul>
+  <li>Show Top 5 Products by Sales</li>
+  <li>Let users switch to Top 10, Top 20, or even All</li>
+  <li>Keep visuals clean and focused — without hardcoding the logic</li>
+</ul>
+
+<hr />
+
+<h3 id="-what-youll-learn">🧰 What You’ll Learn</h3>
+
+<p>In my latest YouTube video, I walk through exactly how to create a <strong>Dynamic TOPN experience</strong> in Power BI using:</p>
+<ul>
+  <li>A <strong>parameter table</strong> for the user-defined N value</li>
+  <li>A simple but powerful <strong>DAX measure</strong> to apply the ranking dynamically</li>
+  <li>Optional enhancements to handle “Other” categories or display logic</li>
+</ul>
+
+<p>🎥 <strong>Watch the full tutorial here:</strong><br />
+👉 <a href="https://www.youtube.com/watch?v=qybaOgLtfoM&amp;t">https://www.youtube.com/watch?v=YOUR-VIDEO-ID</a></p>
+
+<hr />
+
+<h3 id="-why-use-dynamic-topn">🔍 Why Use Dynamic TOPN?</h3>
+
+<p>Here’s why it works:</p>
+<ul>
+  <li>✅ <strong>Improves performance</strong> by reducing the number of rendered elements</li>
+  <li>✅ <strong>Enhances user control</strong> with adjustable granularity</li>
+  <li>✅ <strong>Tells a clearer story</strong> — focused on what matters</li>
+</ul>
+
+<hr />
+
+<h3 id="-pro-tips">✅ Pro Tips</h3>
+
+<ul>
+  <li>Pair with <strong>field parameters</strong> to let users choose between metrics (e.g., Sales, Profit, Quantity)</li>
+  <li>Use <strong>tooltips or drillthroughs</strong> to dig deeper into items outside the Top N</li>
+  <li>Add a <strong>line chart</strong> below to track trends of the selected Top N over time</li>
+</ul>
+
+<hr />
+
+<h3 id="-final-thoughts">💬 Final Thoughts</h3>
+
+<p>This small technique can drastically improve the <strong>readability and flexibility</strong> of your Power BI reports. It’s one of those underrated tricks that feels small but has a huge impact.</p>
+
+<p>If you’ve tried something similar — or want to explore <strong>Bottom N</strong> or <strong>Top N by different metrics</strong> — drop a comment or reach out. I’d love to hear how you’re using this in your own work!</p>
+
+<hr />
+
+<p><strong>✍️ Written by:</strong> Manpreet Singh<br />
+📺 <strong>YouTube Channel:</strong> <a href="https://www.youtube.com/@bite-analytics">Bite Analytics</a><br />
+🌐 <strong>More on the blog:</strong> <a href="https://bite-analytics.com/blog">https://bite-analytics.com/blog</a></p>]]></content><author><name>Manpreet Singh</name></author><category term="Power BI" /><category term="DAX" /><category term="Power BI" /><category term="DAX" /><category term="TopN" /><category term="Dynamic Reports" /><category term="Data Visualization" /><summary type="html"><![CDATA[🧠 Declutter Your Power BI Visuals with Dynamic TOPN]]></summary></entry><entry><title type="html">10 Power BI Best Practices You Should Know</title><link href="/Top-10-Power-BI-Best-Practice-tips/" rel="alternate" type="text/html" title="10 Power BI Best Practices You Should Know" /><published>2025-07-10T00:00:00+00:00</published><updated>2025-07-10T00:00:00+00:00</updated><id>/Top%2010%20Power%20BI%20Best%20Practice%20tips</id><content type="html" xml:base="/Top-10-Power-BI-Best-Practice-tips/"><![CDATA[<p><em>By Manpreet Ragi</em></p>
 
 <hr />
 

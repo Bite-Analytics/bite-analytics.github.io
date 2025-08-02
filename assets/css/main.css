@@ -1,7 +1,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* Copyright comment */
 /*!
- * Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+ * Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
  * Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
  * Free for personal and commercial use under the MIT license
  * https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -811,7 +811,7 @@ div.highlighter-rouge > pre, div.highlighter-rouge pre.highlight, figure.highlig
 .transparent { opacity: 0; }
 
 /* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
-.visually-hidden, .screen-reader-text, .screen-reader-text span, .screen-reader-shortcut { position: absolute !important; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; border: 0 !important; overflow: hidden; }
+.visually-hidden, .screen-reader-text, .screen-reader-text span, .screen-reader-shortcut, .sr-only, .sr-only-focusable:not(:focus) { position: absolute !important; clip: rect(0, 0, 0, 0); height: 1px !important; width: 1px !important; padding: 0 !important; border: 0 !important; margin: -1px; overflow: hidden; white-space: nowrap; }
 
 body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
 
