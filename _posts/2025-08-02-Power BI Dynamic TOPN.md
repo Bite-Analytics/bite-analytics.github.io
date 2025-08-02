@@ -7,7 +7,7 @@ author: Manpreet Singh
 summary: Learn how to use Dynamic TOPN in Power BI to simplify your visuals, improve performance, and give users more control over what they see.
 ---
 
-## 🧠 Declutter Your Power BI Visuals with Dynamic TOPN
+## Declutter Your Power BI Visuals with Dynamic TOPN
 
 ### Tired of over-crowded visuals that don’t say much?
 
@@ -35,10 +35,9 @@ For example:
 In my latest YouTube video, I walk through exactly how to create a **Dynamic TOPN experience** in Power BI using:
 - A **parameter table** for the user-defined N value
 - A simple but powerful **DAX measure** to apply the ranking dynamically
-- Optional enhancements to handle “Other” categories or display logic
 
 🎥 **Watch the full tutorial here:**  
-👉 [https://www.youtube.com/watch?v=YOUR-VIDEO-ID](https://www.youtube.com/watch?v=qybaOgLtfoM&t)
+👉 [https://www.youtube.com/watch?v=qybaOgLtfoM&t](https://www.youtube.com/watch?v=qybaOgLtfoM&t)
 
 ---
 
