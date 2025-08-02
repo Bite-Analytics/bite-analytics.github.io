@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Declutter Your Power BI Visuals with Dynamic TOPN",
-        "excerpt":"🧠 Declutter Your Power BI Visuals with Dynamic TOPN Tired of over-crowded visuals that don’t say much? One of the most common issues in Power BI reports is a bar chart (or table) overflowing with category values — sometimes dozens. Sure, the data is technically complete… but is it really...","categories": ["Power BI","DAX"],
+        "excerpt":"Declutter Your Power BI Visuals with Dynamic TOPN Tired of over-crowded visuals that don’t say much? One of the most common issues in Power BI reports is a bar chart (or table) overflowing with category values — sometimes dozens. Sure, the data is technically complete… but is it really helping...","categories": ["Power BI","DAX"],
         "tags": ["Power BI","DAX","TopN","Dynamic Reports","Data Visualization"],
         "url": "/power%20bi/dax/Power-BI-Dynamic-TOPN/",
         "teaser": null
