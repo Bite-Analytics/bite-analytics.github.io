@@ -66,6 +66,6 @@ If you’ve tried something similar — or want to explore **Bottom N** or **Top
 
 ---
 
-**✍️ Written by:** Manpreet Singh  
+**✍️ Written by:** Manpreet Ragi  
 📺 **YouTube Channel:** [Bite Analytics](https://www.youtube.com/@bite-analytics)  
 🌐 **More on the blog:** [https://bite-analytics.com/blog](https://bite-analytics.com/blog)
