@@ -23,7 +23,7 @@
 <loc>/</loc>
 </url>
 <url>
-<loc>/tags/</loc>
+<loc>/categories/</loc>
 </url>
 <url>
 <loc>/blog/</loc>
@@ -32,7 +32,7 @@
 <loc>/about/</loc>
 </url>
 <url>
-<loc>/categories/</loc>
+<loc>/tags/</loc>
 </url>
 <url>
 <loc>/</loc>
